@@ -1,0 +1,48 @@
+.navbar {
+  background-color: var(--basic-bg-color);
+  border: 1px solid var(--basic-border-color);
+  box-sizing: border-box;
+}
+.navbar-container {
+  padding-top: 24px;
+  padding-bottom: 23px;
+  @extend %centrFlex;
+  justify-content: center;
+}
+.navbar-logo {
+  @extend %centrFlex;
+  justify-content: center;
+  margin-right: 450.97px;
+}
+.navbar-logo__img {
+  width: 79.53px;
+  height: 18px;
+}
+.site-nav {
+  @extend %centrFlex;
+  justify-content: center;
+}
+.site-list {
+  display: flex;
+  align-items: center;
+}
+.site-list__item--home {
+  margin-right: 48px;
+}
+.site-list__item--about {
+  margin-right: 42.5px;
+}
+.site-list__item--services {
+  margin-right: 39px;
+}
+.site-list__item--work {
+  margin-right: 30px;
+}
+.site-list__link {
+  color: var(--accent-text-color);
+  @include font(600, 12px, 1.17, 1.09091px);
+}
+.current {
+  color: var(--accent-color);
+  position: relative;
+}

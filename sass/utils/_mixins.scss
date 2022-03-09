@@ -1,0 +1,13 @@
+@mixin font($f-w: 400, $f-s: 16px, $l-h: 1.5, $l-s: 0.426667px) {
+  font-weight: $f-w;
+  font-size: $f-s;
+  line-height: $l-h;
+  letter-spacing: $l-s;
+}
+
+@mixin centrAbsolut() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

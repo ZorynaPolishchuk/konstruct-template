@@ -1,0 +1,43 @@
+.header {
+  background-color: var(--header-bg-color);
+  border: 1px solid var(--header-border-color);
+  box-sizing: border-box;
+  background-image: url(../images/background-main-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header-container {
+  padding-top: 41.6px;
+  padding-bottom: 71px;
+  display: flex;
+  flex-direction: column;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 317px;
+}
+.header-logo__img {
+  width: 101.62px;
+  height: 23px;
+}
+.header__main-title {
+  font-family: BebasNeueBold;
+  @include font(700, 60px, 1.17, 5.70937px);
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 21px;
+}
+.header__after-title {
+  @include font(600, null, 1.1875, null);
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 221px;
+}
+.header__end-title {
+  @include font(600, 11px, 1.18, 3.7px);
+  text-align: center;
+  color: var(--title-text-color);
+}

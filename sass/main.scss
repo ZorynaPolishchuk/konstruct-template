@@ -1,15 +1,15 @@
 @import './base/common';
 @import './base/reset';
-// @import './utils/vars';
-// @import './utils/mixins';
-// @import './utils/placeholders';
-// @import './utils/hidden';
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './utils/hidden';
 
-// @import './components/container';
+@import './components/container';
 
-// @import './layout/header';
-// @import './layout/hero';
-// @import './layout/products';
+@import './layout/header';
+@import './layout/navbar';
+@import './layout/about';
 // @import './layout/about';
 // @import './layout/advantages';
 // @import './layout/gallery';
