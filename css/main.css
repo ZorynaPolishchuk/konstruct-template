@@ -225,4 +225,70 @@ img {
   left: 447px;
   bottom: -11px;
 }
+
+.left-content,
+.right-content {
+  display: flex;
+  align-self: baseline;
+}
+
+.left-content {
+  flex-wrap: wrap;
+  width: 405.08px;
+  padding-right: 76.92px;
+}
+
+.left-content__main-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.1875px;
+  color: var(--accent-text-color);
+  margin-bottom: 30px;
+}
+
+.left-content__main-text--blue {
+  color: var(--accent-color);
+}
+
+.left-content__end-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.77;
+  letter-spacing: 0.1875px;
+  color: var(--accent-text-color);
+}
+
+.right-content {
+  width: 459px;
+}
+
+.about-list {
+  display: flex;
+  align-items: center;
+}
+
+.about-list__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.about-list__img {
+  width: 140px;
+  height: 224px;
+}
+
+.about-list__wrap {
+  position: relative;
+}
+
+.about-list__text {
+  position: absolute;
+  left: 14px;
+  top: 15px;
+  color: var(--title-text-color);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.21;
+  letter-spacing: 0.1875px;
+}
 /*# sourceMappingURL=main.css.map */
